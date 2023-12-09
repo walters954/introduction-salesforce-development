@@ -1,0 +1,15 @@
+String title;
+Integer yearsOfExperience = 5;
+
+// Determine title based on years of experience
+if (yearsOfExperience < 2) {
+    title = 'Junior Developer';
+} else if (yearsOfExperience >= 2 && yearsOfExperience < 5) {
+    title = 'Mid-Level Developer';
+} else if (yearsOfExperience >= 5 && yearsOfExperience < 10) {
+    title = 'Senior Developer';
+} else {
+    title = 'Lead Developer';
+}
+
+System.debug('Developer title: ' + title);
